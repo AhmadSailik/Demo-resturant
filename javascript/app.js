@@ -15,16 +15,16 @@ if(favFood === 'mansaf'){
 }
 */
 var favDash = prompt('What is favourite dash?','mansaf , magluba');
-while(favDash !== 'mansaf' && favDash !== 'magluba');{
-    favDash = prompt('Pleas enter on of the following mansaf or magluba.');
+while(favDash !== 'mansaf' && favDash !== 'magluba'){
+    favDash = prompt('Pleas enter on of the following mansaf or magluba.')
 }
 var dashNum = prompt('How many mansaf or magluba would you like to see?');
-var image =''
+var image ='';
 for(var i = 1 ; i <=dashNum; i++ ){
     if(favDash === 'mansaf'){
-    image =image +'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbqnTgomqjjwxu_rK4vuSs-vlPQvA5pbd2A&usqp=CAU" />';
+    image += '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbqnTgomqjjwxu_rK4vuSs-vlPQvA5pbd2A&usqp=CAU" />';
     }else if(favDash==='magluba'){
-    image =image +'<img src="https://theodehlicious.com/wp-content/uploads/2020/06/Chicken-Maqluba-Recipe-1024x768.jpg" />';
+    image +='<img src="https://theodehlicious.com/wp-content/uploads/2020/06/Chicken-Maqluba-Recipe-1024x768.jpg" />';
     }
 }
 document.write(image);
