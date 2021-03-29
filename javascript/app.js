@@ -30,7 +30,7 @@ for(var i = 1 ; i <=dashNum; i++ ){
 }
 document.write(image);
 */
-/*
+
 function numImage (image){
     var image ='';
     var favDash = prompt('What is favourite dash?','mansaf , magluba');
